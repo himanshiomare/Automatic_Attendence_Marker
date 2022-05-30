@@ -11,7 +11,7 @@ Because of the online education, students are missing their classes and not payi
 2. After the detection the name of the student,date and time will be recorded in xl file for records.
 
 ## ML Model 
-1. This  model  is trained to  differentiate between real live vdo and photographs which checks the liveliness. It will mark present only when it will detect live video and for the photos it will be invalid.
+1. This  model differentiates between real live vdo and photographs which checks the liveliness. It will mark present only when it will detect live video and for the photos it will be invalid.
 2. face-recognition package is used which has more than 99% accuracy detects face and encodes them.
 3. A threshold (95%) is set. Faces above this similarity are recognized.
 4. Siamese network compares the live video with the all the photos in the people folder using the cosine similarity. 
